@@ -1,0 +1,20 @@
+.page__wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.page {
+    border: 1px solid violet;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.page:hover {
+    background-color: rgba(238, 130, 238, 0.453);
+}
+.page__curent {
+    background-color: rgba(238, 130, 238, 0.453);
+    cursor: default;
+}
